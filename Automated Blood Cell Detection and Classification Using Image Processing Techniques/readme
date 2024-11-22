@@ -1,1 +1,4 @@
-
+The project deals with the preprocessing and enhancement of medical images using filters such as Gaussian, Median, and more to enhance their clarity. 
+Features extracted include edge count, variance, and intensity, and the best filter for enhancement is predicted by a Random Forest Classifier. 
+The processed images are then later enhanced with Sobel, Canny edge detection, and morphological filters (erosion and dilation) to accurately identify and annotate RBCs and WBCs using bounding boxes. 
+Labeled datasets are then used to determine the precise cell counting and classification results of accurate analysis visually presented for good medical analysis.
